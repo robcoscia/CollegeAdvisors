@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeAdvisors", "CollegeAdvisors\CollegeAdvisors.csproj", "{168B5359-C131-4A9E-819B-568990A77256}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{F58C0737-AD66-4689-8C87-D51562B95942}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{AC7CED9A-1E88-40A3-856C-0DE0E90C7FCB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\CollegeAdvisors-WAWS-dev.json = PublishScripts\Configurations\CollegeAdvisors-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168B5359-C131-4A9E-819B-568990A77256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168B5359-C131-4A9E-819B-568990A77256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168B5359-C131-4A9E-819B-568990A77256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168B5359-C131-4A9E-819B-568990A77256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC7CED9A-1E88-40A3-856C-0DE0E90C7FCB} = {F58C0737-AD66-4689-8C87-D51562B95942}
+	EndGlobalSection
+EndGlobal
